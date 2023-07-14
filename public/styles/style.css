@@ -1,0 +1,133 @@
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #15e5a795;
+    height: 60vw;
+    overflow: hidden scroll;
+    padding-top: 65px;
+}
+
+.spotify-inicial {
+    background-image: url(/images/spotify-background.jpeg);
+    position: fixed;
+    top: 50px;
+    box-shadow: inset rgba(0, 0, 0, 0.5) 0em -.2em 1em;
+    height: 50vw;
+    width: 98vw;
+    background-attachment: fixed;
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+ul li {
+    list-style: none;
+    width: 30%;
+    flex-wrap: wrap;
+
+
+}
+
+img {
+    width: 140px;
+}
+
+.artist-list {
+    text-align: center;
+    width: 250px;
+    height: 250px !important;
+    color: #171717;
+    cursor: pointer;
+    transform: scale(.9);
+    margin: 6px;
+    background-color: aliceblue;
+    padding-top: 10px;
+    border: 2px solid black;
+}
+
+.artist-list a {
+    display: block;
+}
+
+svg {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.audio {
+    /* background-color: aliceblue; */
+    padding: 3px;
+}
+
+
+th {
+    background-color: #f2f2f2;
+}
+
+table {
+    border-collapse: collapse;
+
+    width: 100%;
+
+}
+
+table th,
+table td {
+    border: 1px solid black;
+
+    padding: 8px;
+
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+.navegacion {
+    position: fixed;
+    padding: 15px;
+    background-color: #15e5a6;
+    width: 100%;
+}
+
+.link {
+    margin: 15px !important;
+    color: rgb(0, 0, 255) !important;
+}
+
+.textoh1 {
+    margin: 15%;
+}
+
+.textoh1 h1 {
+    margin: 10%;
+    color: #25700e;
+}
+
+.formulario {
+    background-color: #15e5a6;
+    width: 70%;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.formulario button {
+    border-radius: 10px;
+}
+
+#artist {
+
+    width: 70%;
+}

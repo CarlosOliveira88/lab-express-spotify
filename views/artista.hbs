@@ -1,0 +1,43 @@
+<div class="body">
+
+    <div class="container text-center">
+
+        <h1>Resultados de búsqueda de artistas</h1>
+
+        <div class="row">
+
+            <div class="col">
+
+                <ul>
+                    {{#each artists}}
+                    <li>
+                        <div class="artist-list">
+                            <h4>{{name}}</h4>
+                            {{#if images.length}}
+                            <img src="{{images.[0].url}}" alt="Imagen del artista">
+                            {{else}}
+                            <p>No hay imagen disponible</p>
+                            {{/if}}
+                            <a href="/albums/{{id}}">Ver álbumes</a>
+                        </div>
+                    </li>
+                    {{/each}}
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
