@@ -29,8 +29,8 @@ app.get("/", (req, res, next) => res.render("index"));
 
 
 app.get('/artist-search', (req, res, next) => {
-    // let artista = req.body.artist;
-    const artist = req.query.artist || "Shakira";
+
+    const artist = req.query.artist;
 
     spotifyApi
         .searchArtists(artist)
